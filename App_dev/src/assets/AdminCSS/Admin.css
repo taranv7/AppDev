@@ -1,0 +1,87 @@
+/* Admin.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+/* Admin content styles */
+.admin-content {
+  width: 80%; /* Adjust the width as needed */
+  padding: 20px;
+  background: linear-gradient(135deg, #2980b9, #6dd5fa);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.admin-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Add Academy Form styles */
+.add-academy-form {
+  margin-bottom: 20px;
+}
+
+.add-academy-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.add-academy-form input[type="text"],
+.add-academy-form input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-academy-form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-academy-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Academy List styles */
+.academy-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.academy-list-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+.academy-list-item button {
+  padding: 8px 15px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.academy-list-item button:hover {
+  background-color: #c82333;
+}

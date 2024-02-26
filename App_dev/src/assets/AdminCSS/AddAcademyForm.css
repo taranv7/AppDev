@@ -1,0 +1,13 @@
+/* AddAcademyForm.css */
+.form-container {
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    margin-right: 10px;
+  }
+  
+  .form-container button {
+    margin-top: 10px;
+  }
+  

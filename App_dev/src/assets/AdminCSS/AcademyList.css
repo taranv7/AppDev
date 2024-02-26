@@ -1,0 +1,17 @@
+/* AcademyList.css */
+.academy-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .academy-item {
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  /* button{
+    background-color:blueviolet;
+  } */
